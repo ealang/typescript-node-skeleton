@@ -1,4 +1,4 @@
-# Empty Typescript Project
+# typescript-node-skeleton
 
 ```shell
 npm install
