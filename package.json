@@ -1,0 +1,15 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build:live",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./index.ts"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.7.2"
+  }
+}
